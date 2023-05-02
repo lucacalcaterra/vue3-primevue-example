@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
 const items = ref([
   {
@@ -19,6 +19,5 @@ const items = ref([
     icon: 'pi pi-fw pi-cog',
     to: '/about'
   }
-]);
-
+])
 </script>
